@@ -1,0 +1,38 @@
+uuid: c0150947-6a6a-40c5-9ae8-513f6971abea
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.mict.body
+    - field.field.node.mict.field_iamgenes
+    - node.type.mict
+  module:
+    - image
+    - text
+    - user
+id: node.mict.default
+targetEntityType: node
+bundle: mict
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_iamgenes:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

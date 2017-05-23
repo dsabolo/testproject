@@ -1,0 +1,14 @@
+uuid: a31a12f4-e742-469e-a55d-f850dfc7edab
+name: Drupal
+mail: test@test.cc
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/1
+admin_compact_mode: false
+weight_select_max: 100
+langcode: es
+default_langcode: es
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo

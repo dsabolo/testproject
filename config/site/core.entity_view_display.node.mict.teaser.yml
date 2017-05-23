@@ -1,0 +1,29 @@
+uuid: 3632e425-e0d6-4013-9ae9-af5623cd1950
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.mict.body
+    - node.type.mict
+  module:
+    - text
+    - user
+id: node.mict.teaser
+targetEntityType: node
+bundle: mict
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

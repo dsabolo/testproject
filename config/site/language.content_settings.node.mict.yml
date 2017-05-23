@@ -1,0 +1,11 @@
+uuid: e509b074-e2bd-4c9c-ba2c-4159e0c84f76
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.mict
+id: node.mict
+target_entity_type_id: node
+target_bundle: mict
+default_langcode: site_default
+language_alterable: false
