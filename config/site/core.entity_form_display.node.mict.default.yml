@@ -4,11 +4,13 @@ status: true
 dependencies:
   config:
     - field.field.node.mict.body
+    - field.field.node.mict.field_fecha
     - field.field.node.mict.field_iamgenes
     - field.field.node.mict.field_link
     - image.style.thumbnail
     - node.type.mict
   module:
+    - datetime
     - image
     - link
     - path
@@ -33,6 +35,12 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_fecha:
+    weight: 34
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
   field_iamgenes:
     weight: 32
     settings:
