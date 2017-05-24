@@ -1,0 +1,21 @@
+uuid: 8beb45c2-740b-4580-9efb-d0e6518db3de
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fecha
+    - node.type.mict
+  module:
+    - datetime
+id: node.mict.field_fecha
+field_name: field_fecha
+entity_type: node
+bundle: mict
+label: 'Fecha desde'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime
